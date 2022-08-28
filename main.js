@@ -3,8 +3,13 @@ const EMPTY_HEART = '♡'
 const FULL_HEART = '♥'
 
 // Your JavaScript code goes here!
-
-
+document.addEventListener("DOMContentLoaded", () => {
+  const clicker  = document.getElementsByClassName('like-glyph');
+  mimicServerCall("http://mimicServer.example.com")
+  .then(() => {
+    if 
+  })
+})
 
 
 //------------------------------------------------------------------------------
